@@ -11,7 +11,7 @@ descricao VARCHAR(255)
 USE db_generation_game_online;
 
 CREATE TABLE tb_personagens(
-id INT PRIMARY KEY,
+id INT PRIMARY KEY auto_increment,
 nome VARCHAR(50),
 poder_atacar INT,
 poder_escudo INT,
